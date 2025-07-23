@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Deed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+}
+.section-hero {
+  background-image: url(./Figure.png);
+  width: 100%;
+  height: 692px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.section {
+  display: flex;
+}
+.hero-container {
+  padding-top: 55px;
+  color: white;
+}
+.hero-container h1 {
+  font-weight: 600;
+  font-size: 52px;
+}
+.hero-container p {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 16px;
+  text-align: center;
+}
+.primary-button {
+  border: 0;
+  background-color: #0071e3;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: white;
+  font-weight: 300;
+}
+.secondary-button {
+  border: solid 1px #0071e3;
+  background-color: transparent;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: #0071e3;
+  font-size: 300;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 16px;
+}
+.section-iphone {
+  background-image: url(./iphone.png);
+  width: 100%;
+  height: 692px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.iphone-container {
+  padding-top: 55px;
+  color: white;
+}
+.iphone-container h1 {
+  font-weight: 600;
+  font-size: 52px;
+}
+.iphone-container p {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 16px;
+  text-align: center;
+}
+.but1 {
+  border: 0;
+  background-color: #fff;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: black;
+}
+.but2 {
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 300;
+}
+.but {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 16px;
+}
+.Apple {
+  background-image: url(./apple.png);
+  width: 100%;
+  height: 692px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box h2 {
+  font-size: 52px;
+  font-weight: 600;
+  margin-top: 330px;
+}
+.box p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+}
+.button-gift {
+  border: 0;
+  border-radius: 200px;
+  background-color: #0071e3;
+  border-radius: 40px;
+  width: 114px;
+  height: 44px;
+  color: white;
+}
+.section1 {
+  background-image: url(./ipadair.png);
+  width: 50%;
+  height: 580px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.ipad {
+  padding-top: 58px;
+  text-align: center;
+  width: 430px;
+}
+.button-ipad {
+  border: 0;
+  background-color: #0071e3;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: white;
+  font-weight: 300;
+}
+.button-air {
+  border: solid 1px #0071e3;
+  background-color: transparent;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: #0071e3;
+  font-size: 300;
+  margin-top: 20px;
+}
+.hello-apple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 324px;
+  margin-left: 130px;
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section2 {
+  background-image: url(./airpods.png);
+  width: 50%;
+  height: 580px;
+  display: flex;
+}
+.airpods {
+  padding-top: 58px;
+  text-align: center;
+  width: 430px;
+  color: white;
+  margin-top: 324px;
+  margin-left: 240px;
+}
+.button-pods {
+  border: 0;
+  background-color: #0071e3;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: white;
+  font-weight: 300;
+}
+.button-pro2 {
+  border: solid 1px #0071e3;
+  background-color: transparent;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: #0071e3;
+  font-size: 300;
+  margin-top: 20px;
+}
+.section2 {
+  background-image: url(./airpods.png);
+  width: 50%;
+  height: 580px;
+  display: flex;
+}
+.airpods {
+  padding-top: 58px;
+  text-align: center;
+  width: 430px;
+  color: white;
+  margin-top: 324px;
+  margin-left: 240px;
+}
+.button-pods {
+  border: 0;
+  background-color: #0071e3;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: white;
+  font-weight: 300;
+}
+.button-pro2 {
+  border: solid 1px #0071e3;
+  background-color: transparent;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: #0071e3;
+  font-size: 300;
+  margin-top: 20px;
+}
+.secondary {
+  display: flex;
+}
+.watch {
+  text-align: center;
+  padding-left: 150px;
+}
+.button-watch {
+  border: 0;
+  background-color: #0071e3;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: white;
+  font-weight: 300;
+}
+.button-series {
+  border: solid 1px #0071e3;
+  background-color: transparent;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: #0071e3;
+  font-size: 300;
+  margin-top: 20px;
+}
+.section3 {
+  background-image: url(./iwatch.png);
+  text-align: center;
+  padding-left: 120px;
+  padding-top: 20px;
+  display: flex;
+  width: 50%;
+  height: 500px;
+  display: flex;
+  background-position: center;
+}
+.section4 {
+  background-image: url(./macbookair.png);
+  width: 50%;
+  height: 500px;
+  display: flex;
+  background-position: center;
+  text-align: center;
+  padding-left: 250px;
+  padding-top: 20px;
+}
