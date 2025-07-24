@@ -297,3 +297,140 @@
   padding-left: 250px;
   padding-top: 20px;
 }
+.trade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+}
+.section5 {
+  background-image: url(./\ Trade.png);
+  width: 50%;
+  height: 500px;
+  background-position: center;
+}
+.text1 {
+  text-align: center;
+}
+.section-6 {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  align-items: center;
+  border-radius: 40px;
+  border: 0;
+}
+.section-7 {
+  background-image: url(./iphonecard.jpg);
+  width: 50%;
+  height: 500px;
+  background-position: center;
+  padding-top: 55px;
+}
+.secondary1 {
+  display: flex;
+  justify-content: center;
+}
+.text-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-10 {
+  border: 0;
+  background-color: #0071e3;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: white;
+  font-weight: 300;
+}
+.button-11 {
+  border: 0;
+  border: solid 1px #0071e3;
+  padding: 12px 20px;
+  border-radius: 40px;
+  color: #0071e3;
+  padding: 10px 16px;
+}
+.movie1 {
+  background-image: url(./movie1.jpg);
+  width: 1250px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+
+  height: 668px;
+}
+.movie2 {
+  background-image: url(./movie2.jpg);
+  width: 1250px;
+  flex-shrink: 0;
+  height: 668px;
+  scroll-snap-align: center;
+}
+.movie-text {
+  display: flex;
+  align-items: center;
+}
+
+.movie-button {
+  display: inline-flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;
+  background: #f5f5f7;
+}
+
+.movie-text-2 p {
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 117.647% */
+  opacity: 0.999;
+  color: #fff;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.movie-text-2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-left: 40px;
+  padding-top: 570px;
+}
+
+.movie3 {
+  background-image: url(movie3.jpg);
+  width: 1250px;
+  height: 668px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
+
+.movie {
+  display: flex;
+  gap: 20px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
